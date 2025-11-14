@@ -1,10 +1,10 @@
 // Test ID: IIDSAT
-
+import React from "react";
 import {
   calcMinutesLeft,
   formatCurrency,
   formatDate,
-} from "../../utils/helpers";
+} from "../../utiles/helpers";
 
 const order = {
   id: "ABCDEF",

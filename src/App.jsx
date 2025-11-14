@@ -1,10 +1,24 @@
 import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./ui/Home";
+import Menu from "./features/menu/Menu";
+import Cart from "./features/cart/Cart";
+import Order from "./features/order/Order";
+import New from "./features/order/CreateOrder";
+import OrderItem from "./features/order/OrderItem";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  { path: "/menu", element: <Menu /> },
+  { path: "/cart", element: <Cart /> },
+  { path: "/order", element: <Order /> },
+  { path: "/order/new", element: <New /> },
+  { path: "/order:orderID", element: <OrderItem /> },
+]);
 function App() {
-  return (
-    <div>
-      <h1>this is the new project setup!!!</h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
