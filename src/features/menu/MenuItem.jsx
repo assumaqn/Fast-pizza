@@ -1,12 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { formatCurrency } from "../../utiles/helpers";
 
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
-
   return (
     <li>
-      <img src={imageUrl} alt={name} />
+      <img src={imageUrl} alt={name} style={{ width: "450px" }} />
       <div>
         <p>{name}</p>
         <p>{ingredients.join(", ")}</p>
@@ -17,5 +17,16 @@ function MenuItem({ pizza }) {
     </li>
   );
 }
+
+MenuItem.propTypes = {
+  pizza: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    unitPrice: PropTypes.number.isRequired,
+    ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
+    soldOut: PropTypes.bool.isRequired,
+    imageUrl: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default MenuItem;
