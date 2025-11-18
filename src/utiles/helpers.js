@@ -6,12 +6,14 @@ export function formatCurrency(value) {
 }
 
 export function formatDate(dateStr) {
+  const date = new Date(dateStr);
+  if (isNaN(date)) return "Invalid Date"; // fallback
   return new Intl.DateTimeFormat("en", {
     day: "numeric",
     month: "short",
     hour: "2-digit",
     minute: "2-digit",
-  }).format(new Date(dateStr));
+  }).format(date);
 }
 
 export function calcMinutesLeft(dateStr) {

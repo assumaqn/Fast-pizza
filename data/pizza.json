@@ -1,167 +1,247 @@
 {
   "menu": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Margherita",
       "unitPrice": 12,
       "imageUrl": "https://i.pinimg.com/736x/01/fc/ed/01fced62e30a156c19759c289dbaebfd.jpg",
-      "ingredients": ["tomato", "mozzarella", "basil"],
+      "ingredients": [
+        "tomato",
+        "mozzarella",
+        "basil"
+      ],
       "soldOut": false
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Pepperoni",
       "unitPrice": 15,
       "imageUrl": "https://i.pinimg.com/736x/b5/5c/2c/b55c2c81d6d9f63b380e2618266f24a5.jpg",
-      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni"],
+      "ingredients": [
+        "Tomato Sauce",
+        "Mozzarella",
+        "Pepperoni"
+      ],
       "soldOut": true
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Veggie Delight",
       "unitPrice": 14,
       "imageUrl": "https://i.pinimg.com/736x/7c/c1/8e/7cc18e3ae1d1be0e03edd5c786253a05.jpg",
-      "ingredients": ["Peppers", "Onions", "Olives"],
+      "ingredients": [
+        "Peppers",
+        "Onions",
+        "Olives"
+      ],
       "soldOut": false
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "BBQ Chicken",
       "unitPrice": 18,
       "imageUrl": "https://i.pinimg.com/736x/6f/37/68/6f376828e48efcbbe401d68a5f81b823.jpg",
-      "ingredients": ["BBQ Sauce", "Chicken", "Red Onions"],
+      "ingredients": [
+        "BBQ Sauce",
+        "Chicken",
+        "Red Onions"
+      ],
       "soldOut": true
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Hawaiian",
       "unitPrice": 16,
       "imageUrl": "https://i.pinimg.com/736x/75/e1/19/75e1199bfd32e7e36a9b72904407affc.jpg",
-      "ingredients": ["Tomato Sauce", "Ham", "Pineapple"],
+      "ingredients": [
+        "Tomato Sauce",
+        "Ham",
+        "Pineapple"
+      ],
       "soldOut": false
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Four Cheese",
       "unitPrice": 17,
       "imageUrl": "https://i.pinimg.com/736x/af/93/39/af9339d78992749ab3bc032448346b64.jpg",
-      "ingredients": ["Mozzarella", "Cheddar", "Parmesan", "Gorgonzola"],
+      "ingredients": [
+        "Mozzarella",
+        "Cheddar",
+        "Parmesan",
+        "Gorgonzola"
+      ],
       "soldOut": false
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Meat Lovers",
       "unitPrice": 20,
       "imageUrl": "https://i.pinimg.com/736x/b6/c8/e7/b6c8e79e93cd0dc491b01a2349329ddc.jpg",
-      "ingredients": ["Pepperoni", "Sausage", "Ham"],
+      "ingredients": [
+        "Pepperoni",
+        "Sausage",
+        "Ham"
+      ],
       "soldOut": true
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Mexican Heat",
       "unitPrice": 18,
       "imageUrl": "https://i.pinimg.com/736x/e4/76/59/e47659a7aec7aec54919fc0901104775.jpg",
-      "ingredients": ["Jalapeños", "Beef", "Onions"],
+      "ingredients": [
+        "Jalapeños",
+        "Beef",
+        "Onions"
+      ],
       "soldOut": false
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Tuna Special",
       "unitPrice": 19,
       "imageUrl": "https://i.pinimg.com/736x/c6/d9/25/c6d9257313c4f61fa8ae51cebbebd10d.jpg",
-      "ingredients": ["Tuna", "Onions", "Sweet Corn"],
+      "ingredients": [
+        "Tuna",
+        "Onions",
+        "Sweet Corn"
+      ],
       "soldOut": false
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Spinach Alfredo",
       "unitPrice": 17,
       "imageUrl": "https://i.pinimg.com/736x/c0/c8/66/c0c866711a2970dba72aa3869204344d.jpg",
-      "ingredients": ["Alfredo Sauce", "Spinach", "Garlic"],
+      "ingredients": [
+        "Alfredo Sauce",
+        "Spinach",
+        "Garlic"
+      ],
       "soldOut": false
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Farm House",
       "unitPrice": 16,
       "imageUrl": "https://i.pinimg.com/736x/6e/8e/2c/6e8e2c3a690896ff380e8a2c9b3adc57.jpg",
-      "ingredients": ["Mushrooms", "Capsicum", "Tomatoes"],
+      "ingredients": [
+        "Mushrooms",
+        "Capsicum",
+        "Tomatoes"
+      ],
       "soldOut": true
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Chicken Fajita",
       "unitPrice": 18,
       "imageUrl": "https://i.pinimg.com/736x/20/b0/7d/20b07df92e442ee557d09308c4c9c033.jpg",
-      "ingredients": ["Chicken", "Capsicum", "Onions"],
+      "ingredients": [
+        "Chicken",
+        "Capsicum",
+        "Onions"
+      ],
       "soldOut": false
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Supreme",
       "unitPrice": 20,
       "imageUrl": "https://i.pinimg.com/736x/a7/7d/87/a77d87f49507599152ee27d783cfb0f7.jpg",
-      "ingredients": ["Pepperoni", "Beef", "Olives"],
+      "ingredients": [
+        "Pepperoni",
+        "Beef",
+        "Olives"
+      ],
       "soldOut": false
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Mushroom Lovers",
       "unitPrice": 15,
       "imageUrl": "https://i.pinimg.com/736x/82/b2/a1/82b2a1cece8524b334aa7d3b2fe558ec.jpg",
-      "ingredients": ["Mushrooms", "Garlic", "Mozzarella"],
+      "ingredients": [
+        "Mushrooms",
+        "Garlic",
+        "Mozzarella"
+      ],
       "soldOut": false
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Peri Peri Chicken",
       "unitPrice": 19,
       "imageUrl": "https://i.pinimg.com/736x/f0/45/b2/f045b22fc7748cca36c73f2a19a6f9c7.jpg",
-      "ingredients": ["Peri Peri Sauce", "Chicken", "Onions"],
+      "ingredients": [
+        "Peri Peri Sauce",
+        "Chicken",
+        "Onions"
+      ],
       "soldOut": true
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Garlic Chicken",
       "unitPrice": 17,
       "imageUrl": "https://i.pinimg.com/736x/01/e3/d3/01e3d39e4cac6dcb0e84ec7fd90b1ac4.jpg",
-      "ingredients": ["Garlic", "Chicken", "Mozzarella"],
+      "ingredients": [
+        "Garlic",
+        "Chicken",
+        "Mozzarella"
+      ],
       "soldOut": false
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Seafood Deluxe",
       "unitPrice": 22,
       "imageUrl": "https://i.pinimg.com/736x/45/7c/cc/457ccce11cadaf08fdf88901ab78924a.jpg",
-      "ingredients": ["Shrimp", "Squid", "Garlic"],
+      "ingredients": [
+        "Shrimp",
+        "Squid",
+        "Garlic"
+      ],
       "soldOut": false
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Beef Pepperoni",
       "unitPrice": 18,
       "imageUrl": "https://i.pinimg.com/736x/a5/fd/35/a5fd35a99f1cb7a10ebe6638eb9d938a.jpg",
-      "ingredients": ["Beef Pepperoni", "Tomato Sauce", "Cheese"],
+      "ingredients": [
+        "Beef Pepperoni",
+        "Tomato Sauce",
+        "Cheese"
+      ],
       "soldOut": false
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Mediterranean",
       "unitPrice": 19,
       "imageUrl": "https://i.pinimg.com/736x/a7/50/19/a75019b3fb1bcf153842063b572ecd85.jpg",
-      "ingredients": ["Feta Cheese", "Olives", "Tomatoes"],
+      "ingredients": [
+        "Feta Cheese",
+        "Olives",
+        "Tomatoes"
+      ],
       "soldOut": true
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Chicken Mushroom",
       "unitPrice": 17,
       "imageUrl": "https://i.pinimg.com/736x/b3/6f/b7/b36fb745fc8a6122f8fd821692b2278a.jpg",
-      "ingredients": ["Chicken", "Mushrooms", "Mozzarella"],
+      "ingredients": [
+        "Chicken",
+        "Mushrooms",
+        "Mozzarella"
+      ],
       "soldOut": false
     }
   ],
-
   "order": [
     {
       "id": "ABCDEF",
@@ -257,6 +337,366 @@
       "position": "-9.130,38.710",
       "orderPrice": 69,
       "priorityPrice": 13.8
+    },
+    {
+      "id": "fb21",
+      "customer": "kumneget",
+      "phone": "94 634 8751",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "afdc",
+      "customer": "kumneget",
+      "phone": "0948758961",
+      "address": "Debre Birhan",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "5417",
+      "customer": "kumneget",
+      "phone": "09465285",
+      "address": "Dekeni",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "b482",
+      "customer": "kumneget",
+      "phone": "94 634 8751",
+      "address": "Debre Birhan",
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ],
+      "priority": false
+    },
+    {
+      "id": "df7c",
+      "customer": "lajsfljlfa",
+      "phone": "94 634 8751",
+      "address": "Debre Birhan",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "2b54",
+      "customer": "kumneget",
+      "phone": "0948758961",
+      "address": "Addis Ababa",
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ],
+      "priority": false
+    },
+    {
+      "id": "f72a",
+      "customer": "kumneget",
+      "phone": "0948758961",
+      "address": "Dekeni",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "e67a",
+      "customer": "kumneget",
+      "phone": "0948758961",
+      "address": "Addis Ababa",
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ],
+      "priority": false
+    },
+    {
+      "id": "06b0",
+      "customer": "elhma",
+      "phone": "0946348751",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "a202",
+      "customer": "kumneget",
+      "phone": "0946348751",
+      "address": "Dekeni",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "4865",
+      "customer": "kumneget",
+      "phone": "09463455858",
+      "address": "Debre Birhan",
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ],
+      "priority": false
+    },
+    {
+      "id": "591c",
+      "customer": "kumneget",
+      "phone": "0946348751",
+      "address": "Dekeni",
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ],
+      "priority": false
     }
   ]
 }
