@@ -3,8 +3,8 @@ import React from "react";
 
 function CartOverview() {
   return (
-    <div>
-      <p>
+    <div className="bg-stone-800 p-4 text-stone-200">
+      <p className="space-x-4 text-stone-300">
         <span>23 pizzas</span>
         <span>$23.45</span>
       </p>
