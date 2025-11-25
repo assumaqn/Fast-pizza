@@ -1,13 +1,17 @@
+import React from "react";
+import { formatCurrency } from "../../utiles/helpers";
+import Button from "../../ui/Button";
 function CartItem({ item }) {
   const { pizzaId, name, quantity, totalPrice } = item;
 
   return (
-    <li>
-      <p>
+    <li className="py-3 sm:flex sm:items-center sm:justify-between">
+      <p className="mb-1 sm:mb-0">
         {quantity}&times; {name}
       </p>
-      <div>
+      <div className="flex items-center justify-between gap-6">
         <p>{formatCurrency(totalPrice)}</p>
+        <Button type="small">Delete</Button>
       </div>
     </li>
   );
