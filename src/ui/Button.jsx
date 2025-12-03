@@ -15,7 +15,7 @@ function Button({ children, type, onClick, disabled, to }) {
   if (to)
     return (
       <Link className={style[type]} to={to}>
-        Order pizzas
+        {children}
       </Link>
     );
   return (
