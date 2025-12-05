@@ -52,9 +52,9 @@ function Order() {
     id,
     status,
     priority,
-    priorityPrice = 26,
+    priorityPrice,
     orderPrice,
-    estimatedDelivery,
+    estimatedDelivery = Date.now() + 10 * 100000,
     cart,
   } = order;
   const deliveryIn = calcMinutesLeft(estimatedDelivery);

@@ -1087,6 +1087,197 @@
         }
       ],
       "priority": false
+    },
+    {
+      "id": "8312",
+      "customer": "elhma",
+      "phone": "0946348751",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "eeef",
+      "customer": "kumneger",
+      "phone": "0946348751",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": 12,
+          "name": "Mediterranean",
+          "quantity": 2,
+          "unitPrice": 16,
+          "totalPrice": 32
+        },
+        {
+          "pizzaId": 6,
+          "name": "Vegetale",
+          "quantity": 1,
+          "unitPrice": 13,
+          "totalPrice": 13
+        },
+        {
+          "pizzaId": 11,
+          "name": "Spinach and Mushroom",
+          "quantity": 1,
+          "unitPrice": 15,
+          "totalPrice": 15
+        }
+      ]
+    },
+    {
+      "id": "d6d4",
+      "customer": "ku",
+      "phone": "0948758961",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ]
+    },
+    {
+      "id": "830f",
+      "customer": "kumnee",
+      "phone": "0946348751",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ]
+    },
+    {
+      "id": "4714",
+      "customer": "kumneger",
+      "phone": "0946348751",
+      "address": "kj",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        },
+        {
+          "pizzaId": "6",
+          "name": "Four Cheese",
+          "quantity": 1,
+          "unitPrice": 17,
+          "totalPrice": 17
+        }
+      ]
+    },
+    {
+      "id": "0b95",
+      "customer": "kumneger",
+      "phone": "0946348751",
+      "address": "kj",
+      "priority": false,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        }
+      ]
+    },
+    {
+      "id": "3014",
+      "customer": "kumbnbhb",
+      "phone": "0946348751",
+      "address": "kj",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        }
+      ]
+    },
+    {
+      "id": "ec6d",
+      "customer": "kum",
+      "phone": "0948758961",
+      "address": "Addis Ababa",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ]
     }
   ]
 }
