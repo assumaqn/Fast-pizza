@@ -86,7 +86,7 @@ function CreateOrder() {
               </p>
             )}
           </div>
-          {!possition && !address && (
+          {!address && (
             <span className="absolute right-[3px] top-[3px] md:right-[5px] md:top-[5px]">
               <Button
                 type="small"

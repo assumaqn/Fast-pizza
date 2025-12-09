@@ -1278,6 +1278,102 @@
           "totalPrice": 14
         }
       ]
+    },
+    {
+      "id": "0dcf",
+      "customer": "kumneget",
+      "phone": "0946348751",
+      "address": "Gulele, Addis Ababa , Ethiopia",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        },
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        }
+      ],
+      "position": "9.0468698,38.7635228"
+    },
+    {
+      "id": "b8f1",
+      "customer": "kumneger",
+      "phone": "0946348751",
+      "address": "Gulele, Addis Ababa , Ethiopia",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 3,
+          "unitPrice": 12,
+          "totalPrice": 36
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ],
+      "position": "9.0468746,38.7635228"
+    },
+    {
+      "id": "41df",
+      "customer": "kumneg",
+      "phone": "0946348751",
+      "address": "Gulele, Addis Ababa , Ethiopia",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ],
+      "position": "9.0468747,38.7635425"
+    },
+    {
+      "id": "9ebc",
+      "customer": "kum",
+      "phone": "0946348751",
+      "address": "Gulele, Addis Ababa , Ethiopia",
+      "priority": true,
+      "cart": [
+        {
+          "pizzaId": "1",
+          "name": "Margherita",
+          "quantity": 1,
+          "unitPrice": 12,
+          "totalPrice": 12
+        },
+        {
+          "pizzaId": "3",
+          "name": "Veggie Delight",
+          "quantity": 1,
+          "unitPrice": 14,
+          "totalPrice": 14
+        }
+      ],
+      "position": "9.0468744,38.7635355"
     }
   ]
 }

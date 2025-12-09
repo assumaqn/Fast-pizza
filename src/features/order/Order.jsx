@@ -1,12 +1,12 @@
 // Test ID: IIDSAT
-import React from "react";
+import React, { useEffect } from "react";
+import { useFetcher, useLoaderData } from "react-router-dom";
 import {
   calcMinutesLeft,
   formatCurrency,
   formatDate,
 } from "../../utiles/helpers";
 import { getOrder } from "../../services/apiRestaurant";
-import { useLoaderData } from "react-router-dom";
 import OrderItem from "e:/web development/React/Udemy_The_Ultimate_React_Course_Jonas Schmedtmann/ultimate-react-course-main/16-fast-react-pizza/final-1-after-tailwind/src/features/order/OrderItem";
 
 // const order = {
@@ -48,6 +48,14 @@ function Order() {
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
 
   const order = useLoaderData();
+  const fetcher = useFetcher();
+  useEffect(
+    function () {
+      if (!fetcher.data && fetcher.state === "idle") fetcher.load("/menu");
+    },
+    [fetcher],
+  );
+
   const {
     id,
     status,
@@ -88,7 +96,15 @@ function Order() {
       </div>
       <ul className="dive-stone-200 divide-y border-b border-t">
         {cart.map((item) => (
-          <OrderItem item={item} key={item.id} />
+          <OrderItem
+            item={item}
+            isLoadingIngredients={fetcher.state === "loading"}
+            key={item.pizzaId}
+            ingredients={
+              fetcher.data?.find((el) => el.id === item.pizzaId)?.ingredients ??
+              []
+            }
+          />
         ))}
       </ul>
 
