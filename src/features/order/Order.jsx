@@ -8,6 +8,7 @@ import {
 } from "../../utiles/helpers";
 import { getOrder } from "../../services/apiRestaurant";
 import OrderItem from "e:/web development/React/Udemy_The_Ultimate_React_Course_Jonas Schmedtmann/ultimate-react-course-main/16-fast-react-pizza/final-1-after-tailwind/src/features/order/OrderItem";
+import UpdateOrder from "./UpdateOrder";
 
 // const order = {
 //   id: "ABCDEF",
@@ -121,6 +122,7 @@ function Order() {
           To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
         </p>
       </div>
+      {!priority && <UpdateOrder order={order} />}
     </div>
   );
 }
